@@ -26,6 +26,7 @@ export default class homePageActions{
     }
     static clickOnLaptopsandComputer(){
         homePageElements.laptopsAndComputersBannerText().click()
+        
     }
     static creditCardOffersBannerTextExists(){
         homePageElements.creditCardOffersBannerText().should('exist')
